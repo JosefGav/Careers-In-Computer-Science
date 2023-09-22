@@ -1,6 +1,9 @@
 body {  
     margin: 0;
-    padding: 0;
+    padding: 0;  
+    background-color: azure;
+    font-family: monospace;
+
 }
 #Nav {
     position: sticky;
@@ -19,6 +22,7 @@ body {
 }
 #Nav > li:hover > a {
     font-size: 45px;
+    padding: 17.5px;
 }
 
 
@@ -38,4 +42,26 @@ body {
     background-color:#f0a47c;
 }
 
+.Divider {
+    background-color: cornflowerblue;
+    height: 10px;
+}
 
+.column {
+    float: left;
+    width: 33.33%;
+    min-height: 100px;
+    
+  }
+  
+.module {
+    
+    margin: auto;
+    margin-top: 30px;
+    background-color: darkslategrey;
+    min-height: 1px;
+    width: 95%;
+    min-height: 100px;
+    
+    border-radius: 5px;
+}

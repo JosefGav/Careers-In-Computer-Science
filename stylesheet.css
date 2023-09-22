@@ -1,0 +1,41 @@
+body {  
+    margin: 0;
+    padding: 0;
+}
+#Nav {
+    position: sticky;
+    list-style-type: None;
+    
+    background-color:royalblue;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+#Nav > li {
+    float: left;
+}
+#Nav > li:hover {
+    background-color:cornflowerblue;
+}
+#Nav > li:hover > a {
+    font-size: 45px;
+}
+
+
+
+#Nav > li > a {
+    display: block;
+    padding: 20px   ;
+    font-size: 40px;
+    font-family: monospace;
+    text-align: center;
+    color: aliceblue;
+    text-decoration: none;
+    text-shadow: 3px 3px darkslategrey;
+}
+
+.current {
+    background-color:#f0a47c;
+}
+
+
